@@ -1,0 +1,22 @@
+1.To install Docker We use
+--->sudo yum install docker
+2.to check the status od docker
+--->systemctl status docker
+3.to start the docker 
+--->systemctl start dovcker
+4.to check the process of the docker
+--->docker ps
+5.to check the images
+-->docker images
+6.to ceck the network 
+--->docker network ls
+7.to run and create container along with pull
+-->docker run -ti --name veena ubuntu sleep 30000 sh
+8.to inspect the process 
+--->docker inspect veena
+9.to create volume
+-->docker volume create test
+10.to remove volume
+-->docker volume rm test
+11.to remove image
+-->docker image rm test
